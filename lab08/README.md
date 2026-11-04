@@ -1,6 +1,6 @@
 CEP146 Lab 08
 
-Neural Network Diagram
+### Neural Network Diagram
 
 ```mermaid
 flowchart LR
@@ -13,7 +13,6 @@ flowchart LR
 ```
 
 PART A: Training Phase
-
 
 ### Weight Tracker
 
@@ -29,26 +28,18 @@ PART A: Training Phase
 Training Accuracy: 10/10 = 100%
 
 
-Weight Tracker
-
-Training   Stage Food	Service Price
-Initial	   1     1     1
-After Card 2     1     1      1
-After Card 4     1     1      1
-After Card 6	   1     1	    1
-After Card 8	   1     1    	1
-After Card 10	   1	   1	    1
-
-
 All the predictions tested were correct, if a prediction had been incorrect, I think identifying which feature should have had more influence and added a token to increase its weight or remove a token from a misleading feature might help.
 
 
 PART B: Testing Phase
 
-Card  Prediction	Actual Answer  Result
-11	  LIKE	      LIKE	         Correct
-12	  DISLIKE	    DISLIKE	       Correct
-13	  LIKE	      LIKE	         Correct
+### Testing Results
+
+| Card | Prediction | Actual Answer | Result |
+|---|---|---|---|
+| 11 | LIKE | LIKE | Correct |
+| 12 | DISLIKE | DISLIKE | Correct |
+| 13 | LIKE | LIKE | Correct |
 
 Testing Accuracy: 3/3 = 100%
 
