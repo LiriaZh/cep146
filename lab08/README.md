@@ -1,17 +1,5 @@
 CEP146 Lab 08
 
-### Neural Network Diagram
-
-```mermaid
-flowchart LR
-    A["Food"] --> D["Decision Node"]
-    B["Service"] --> D
-    C["Price"] --> D
-    D --> E{"Output"}
-    E --> F["LIKE"]
-    E --> G["DISLIKE"]
-```
-
 PART A: Training Phase
 
 ### Weight Tracker
