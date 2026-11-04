@@ -14,17 +14,17 @@ flowchart LR
 
 PART A: Training Phase
 
-Card        Prediction	Actual Answer	Result	Weight Adjustment
-1	LIKE 	    LIKE	      Correct               None
-2	DISLIKE	  DISLIKE	    Correct	              None
-3	LIKE	    LIKE      	Correct              	None
-4	DISLIKE	  DISLIKE	    Correct	              None
-5	LIKE	    LIKE	      Correct              	None
-6	DISLIKE	  DISLIKE	    Correct              	None
-7	LIKE	    LIKE	      Correct              	None
-8	DISLIKE	  DISLIKE	    Correct	              None
-9	LIKE	    LIKE	      Correct	              None
-10 DISLIKE  DISLIKE  	  Correct	              None
+
+### Weight Tracker
+
+| Training Stage | Food | Service | Price |
+|---|---|---|---|
+| Initial | 1 | 1 | 1 |
+| After Card 2 | 1 | 1 | 1 |
+| After Card 4 | 1 | 1 | 1 |
+| After Card 6 | 1 | 1 | 1 |
+| After Card 8 | 1 | 1 | 1 |
+| After Card 10 | 1 | 1 | 1 |
 
 Training Accuracy: 10/10 = 100%
 
