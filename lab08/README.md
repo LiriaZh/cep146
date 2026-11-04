@@ -2,11 +2,15 @@ CEP146 Lab 08
 
 Neural Network Diagram
 
-Input Layer     Middle Layer           Output Layer
-Food ---------\
-Service ------> Decision Node -------> LIKE / DISLIKE
-Price --------/
-
+```mermaid
+flowchart LR
+    A["Food"] --> D["Decision Node"]
+    B["Service"] --> D
+    C["Price"] --> D
+    D --> E{"Output"}
+    E --> F["LIKE"]
+    E --> G["DISLIKE"]
+```
 
 PART A: Training Phase
 
