@@ -1,6 +1,6 @@
-CEP146 — Lab 9
+**CEP146 — Lab 9**
 
-Exercise 1: Your First Prompts
+*Exercise 1: Your First Prompts*
 
 Scenario 1: Declining a Party Invitation
 Poor Prompt: Write an email to decline a party invitation.
@@ -31,7 +31,7 @@ By adding relevant context, specifying requirements, defining limitations, and r
 
 ⸻
 
-Exercise 2: Problem-Solving with AI
+*Exercise 2: Problem-Solving with AI*
 
 Selected Scenario B: Learning New Skills - C Language
 
